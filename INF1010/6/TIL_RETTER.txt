@@ -1,0 +1,41 @@
+1. Parallellitet: 
+
+Man kunne startet én tråd så snart man har lest inn det første "vinduet», men jeg valgte å ikke gjøre det. Det hadde gjort det vanskeligere å time.
+
+Sorteringen av array-delene skjer i parallell. Det er det eneste i programmet mitt.
+Ting som skjer i hjelperen er synkronisert, dvs at det er det ikke noe parallellitet. Hastigheten er avhengig av hjelperen. 
+
+2. Kjøretid:
+
+Testet på: Macbook Air, 1.3GHz Intel Core i5, 4 GB Ram
+
+Gjennomsnitt av 1000 kjøringer (skulle gjerne testet 10000x, men syntes det var litt i overkant med over 1 time ventetid pr test) :)
+
+		SOWPODS.txt	names.txt
+*** gjennomsnitt av 1000 kjøringer *** gjennomsnitt av 1000 kjøringer ***
+1 tråd		259 ms		2 ms
+2 tråder	198 ms		2 ms
+4 tråder	159 ms		3 ms
+8 tråder	170 ms		3 ms
+16 tråder	169 ms		8 ms
+32 tråder	170 ms		19 ms
+64 tråder	211 ms		402 ms
+100 tråder	390 ms		446 ms
+*** gjennomsnitt av 100 kjøringer *** gjennomsnitt av 100 kjøringer ******
+500 tråder	1018 ms		838 ms
+1000 tråder	4443 ms		3779 ms
+
+Måtte gå ned i antall tester. Fra 500 tråder av klarte ikke maskinen min å komme til en avslutning under 1 time (gadd ikke å vente lenger). 
+Jeg stoler ikke helt på resultatene. Under 50 ms virker litt for optimistisk. 
+Men tror at kjøretiden er best med få tråder, rundt 8. Blir langsommere igjen med bare 1 tråd.
+
+[Jeg skrev først kode med insertion sort, men det tok ekstremt lang tid, så ombestemte meg og brukte merge sort istedet]
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+1;2014;211673;3;8000;12000
+1;A;-9000;Ole Johan
+1;B;-11000;Guri Smith
+1;C;-6500;Hans Petter
+1;D;-14000;Alan Turen
+1;E;10000;Tim Verner
+1;F;41999;Anders Tanen
+2;A;-14000;Torvald Linus
+2;B;0;TOM HYBEL
+2;C;-13000;Bill Weitz
+2;D;-8000;Steve Job
+2;E;-13877;Steve Woz
+2;F;-11100;Denis Rich
+3;A;58000;James Goblin
+3;B;426000;Mark Sukker
+3;C;0;TOM HYBEL
+3;D;0;TOM HYBEL
+3;E;-19750;Ada Love
+3;F;34000;Don Knut

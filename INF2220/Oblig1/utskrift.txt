@@ -1,0 +1,117 @@
+Number of words: 75000
+Word 'busybody' removed: true
+Word 'busybody' readded.
+CHOOSE FROM MENU
+a: search
+b: add
+c: delete
+q: quit
+a
+Please enter a word to search.
+achiev
+'achiev' not found in dictionary.
+-- Spell Check Result --
+'achive' is found
+'achier' is found
+'achieve' is found
+Number of positives: 3
+Time cost: 16,31 milliseconds
+
+CHOOSE FROM MENU
+a: search
+b: add
+c: delete
+q: quit
+a
+Please enter a word to search.
+achiese
+'achiese' not found in dictionary.
+-- Spell Check Result --
+'achieve' is found
+'achiest' is found
+'achinese' is found
+Number of positives: 3
+Time cost: 17,67 milliseconds
+
+CHOOSE FROM MENU
+a: search
+b: add
+c: delete
+q: quit
+a
+Please enter a word to search.
+achievee
+'achievee' not found in dictionary.
+-- Spell Check Result --
+'achieved' is found
+'achiever' is found
+'achieves' is found
+'achieve' is found
+'achieve' is found
+Number of positives: 5
+Time cost: 13,52 milliseconds
+
+CHOOSE FROM MENU
+a: search
+b: add
+c: delete
+q: quit
+a
+Please enter a word to search.
+ahcieve
+'ahcieve' not found in dictionary.
+-- Spell Check Result --
+'achieve' is found
+Number of positives: 1
+Time cost: 6,69 milliseconds
+
+CHOOSE FROM MENU
+a: search
+b: add
+c: delete
+q: quit
+q
+
+<statistics of the tree>
+Depth: 36
+Number of words in each level:
+Level 1: 1 node(s)
+Level 2: 2 node(s)
+Level 3: 4 node(s)
+Level 4: 8 node(s)
+Level 5: 16 node(s)
+Level 6: 32 node(s)
+Level 7: 64 node(s)
+Level 8: 121 node(s)
+Level 9: 218 node(s)
+Level 10: 383 node(s)
+Level 11: 628 node(s)
+Level 12: 990 node(s)
+Level 13: 1513 node(s)
+Level 14: 2208 node(s)
+Level 15: 2949 node(s)
+Level 16: 3889 node(s)
+Level 17: 4772 node(s)
+Level 18: 5671 node(s)
+Level 19: 6251 node(s)
+Level 20: 6689 node(s)
+Level 21: 6692 node(s)
+Level 22: 6450 node(s)
+Level 23: 5884 node(s)
+Level 24: 5101 node(s)
+Level 25: 4244 node(s)
+Level 26: 3254 node(s)
+Level 27: 2395 node(s)
+Level 28: 1789 node(s)
+Level 29: 1177 node(s)
+Level 30: 705 node(s)
+Level 31: 429 node(s)
+Level 32: 236 node(s)
+Level 33: 138 node(s)
+Level 34: 60 node(s)
+Level 35: 25 node(s)
+Level 36: 9 node(s)
+Level 37: 3 node(s)
+Average node depth: 19,65
+First word: abactinally
+Last word:  darndests

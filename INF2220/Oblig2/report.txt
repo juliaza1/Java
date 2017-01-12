@@ -1,0 +1,4 @@
+Har sånn over all O(N^2) pga nested for-løkke når grafen ikke er sirkulær. (linje 257)
+Resten er lineær: Solve-metoden er lineær O(N) (linje 196). Den itererer over alle elementer. Rekursjon i dfs() (linje 134) besøker elementer bare én gang. Så er fortsatt O(N). 
+
+

@@ -1,0 +1,166 @@
+COMMAND: java Oblig2 buildhouse1.txt 10
+OUTPUT:
+Time: 0
+	Starting: 5
+   Current staff: 2
+Time: 4
+	Finished: 5
+	Starting: 1
+	Starting: 6
+   Current staff: 4
+Time: 6
+	Finished: 6
+   Current staff: 2
+Time: 8
+	Finished: 1
+	Starting: 2
+   Current staff: 4
+Time: 14
+	Finished: 2
+	Starting: 3
+	Starting: 4
+	Starting: 7
+   Current staff: 7
+Time: 15
+	Finished: 3
+	Finished: 4
+   Current staff: 2
+Time: 18
+	Finished: 7
+	Starting: 8
+   Current staff: 4
+Time: 22
+	Finished: 8
+**** Shortest possible project execution is 22 ****
+
+
+COMMAND: java Oblig2 buildhouse2.txt 10
+OUTPUT:
+The graph contains directed cycle: 6 3 2 1 6 
+(id:6, name:Make-floor) ---> (id:3, name:Put-on-wallpapers) ---> (id:2, name:Build-roofs) ---> (id:1, name:Build-walls) ---> (id:6, name:Make-floor)
+
+
+COMMAND: java Oblig2 buildrail.txt 100
+OUTPUT:
+Time: 0
+	Starting: 9
+   Current staff: 10
+Time: 3
+	Finished: 9
+	Starting: 10
+	Starting: 11
+	Starting: 12
+	Starting: 14
+	Starting: 16
+	Starting: 17
+   Current staff: 56
+Time: 4
+	Finished: 11
+   Current staff: 52
+Time: 5
+	Finished: 10
+   Current staff: 48
+Time: 28
+	Finished: 14
+   Current staff: 36
+Time: 33
+	Finished: 12
+   Current staff: 24
+Time: 38
+	Finished: 16
+   Current staff: 12
+Time: 48
+	Finished: 17
+	Starting: 2
+	Starting: 13
+	Starting: 15
+	Starting: 18
+	Starting: 19
+	Starting: 20
+   Current staff: 46
+Time: 55
+	Finished: 2
+   Current staff: 36
+Time: 60
+	Finished: 20
+   Current staff: 32
+Time: 66
+	Finished: 13
+   Current staff: 20
+Time: 68
+	Finished: 15
+   Current staff: 8
+Time: 73
+	Finished: 19
+   Current staff: 4
+Time: 88
+	Finished: 18
+	Starting: 8
+	Starting: 21
+	Starting: 22
+	Starting: 23
+   Current staff: 22
+Time: 100
+	Finished: 8
+   Current staff: 15
+Time: 103
+	Finished: 21
+   Current staff: 10
+Time: 104
+	Finished: 22
+   Current staff: 5
+Time: 118
+	Finished: 23
+	Starting: 3
+	Starting: 24
+	Starting: 25
+	Starting: 26
+   Current staff: 31
+Time: 119
+	Finished: 3
+   Current staff: 21
+Time: 138
+	Finished: 26
+   Current staff: 14
+Time: 178
+	Finished: 24
+	Finished: 25
+	Starting: 4
+	Starting: 5
+	Starting: 27
+   Current staff: 22
+Time: 190
+	Finished: 5
+   Current staff: 16
+Time: 193
+	Finished: 4
+   Current staff: 10
+Time: 203
+	Finished: 27
+	Starting: 28
+	Starting: 29
+   Current staff: 20
+Time: 233
+	Finished: 28
+   Current staff: 10
+Time: 240
+	Finished: 29
+	Starting: 1
+	Starting: 6
+	Starting: 7
+	Starting: 30
+   Current staff: 29
+Time: 258
+	Finished: 7
+   Current staff: 23
+Time: 260
+	Finished: 1
+	Finished: 30
+   Current staff: 6
+Time: 267
+	Finished: 6
+	Starting: 31
+   Current staff: 7
+Time: 279
+	Finished: 31
+**** Shortest possible project execution is 279 ****

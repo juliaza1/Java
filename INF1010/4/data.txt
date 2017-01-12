@@ -1,0 +1,26 @@
+# Personer (nr, navn, kjønn)   
+0, Trude Lutt, k
+1, Finn Lutt, m
+2, Kåre Kanin, m
+3, Bjørg Bjørnson, k
+4, Hasse Lasse Hoff, m
+5, Enpersonmedetveldiglangtnavnsomtilogmedinneholderdenorskebokstaveneæøå, k
+
+# Legemidler (nr, navn, form, type, pris, mengde [, styrke])       
+0, Paralgin Forte, pille, a, 150, 8, 10
+1, Placebo, injeksjon, c, 50, 10
+2, Zalo, liniment, b, 75, 100, 4
+
+# Leger (navn, spesialist, avtalenr / 0 hvis ingen avtale)         
+Tore Trompet, 1, 13
+Jens, 0, 0
+Ølf-Ægir Blåmann, 1, 0
+Katrine-Line Persson, 0, 110
+Lars lege, 1, 13
+
+# Resepter (nr, hvit/blå, persNummer, legeNavn, legemiddelNummer, reit)        
+0, h, 0, Tore Trompet, 0, 10
+1, b, 2, Ølf-Ægir Blåmann, 2, 1
+2, b, 2, Ølf-Ægir Blåmann, 1, 10
+
+# Slutt

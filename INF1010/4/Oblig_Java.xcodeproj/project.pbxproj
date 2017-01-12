@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A31E786D18D1DFA10000589A /* Tabell.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Tabell.java; sourceTree = "<group>"; };
+		A3317C9718D0E33F0042382D /* Lege.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Lege.java; sourceTree = "<group>"; };
+		A3317C9818D0E36D0042382D /* Resept.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Resept.java; sourceTree = "<group>"; };
+		A3317C9918D0E8090042382D /* Oblig4.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Oblig4.java; sourceTree = "<group>"; };
+		A337C0A518D481D200F81E4D /* Person.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Person.java; sourceTree = "<group>"; };
+		A3722D7818D0EA0900545356 /* Legemiddel.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Legemiddel.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A3317C8F18D0E31C0042382D = {
+			isa = PBXGroup;
+			children = (
+				A3317C9918D0E8090042382D /* Oblig4.java */,
+				A3722D7818D0EA0900545356 /* Legemiddel.java */,
+				A3317C9818D0E36D0042382D /* Resept.java */,
+				A3317C9718D0E33F0042382D /* Lege.java */,
+				A337C0A518D481D200F81E4D /* Person.java */,
+				A31E786D18D1DFA10000589A /* Tabell.java */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A3317C9018D0E31D0042382D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A3317C9318D0E31D0042382D /* Build configuration list for PBXProject "Oblig_Java" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3317C8F18D0E31C0042382D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A3317C9418D0E31D0042382D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A3317C9518D0E31D0042382D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3317C9318D0E31D0042382D /* Build configuration list for PBXProject "Oblig_Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3317C9418D0E31D0042382D /* Debug */,
+				A3317C9518D0E31D0042382D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3317C9018D0E31D0042382D /* Project object */;
+}

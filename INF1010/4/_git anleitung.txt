@@ -1,0 +1,18 @@
+Ordner, in dem das Projekt sein soll
+git init
+git status
+git add eine-datei.dateiendung
+
+git commit -m "mein erster commit! woohooo!"
+
+wenn was fertig ist, oder man überlegst, in welche Richtung es weitergehen soll oder bevor man ganz viel löscht:
+
+git add eine-datei.dateiendung
+git commit -m "mein x.ter commit!"
+git log (zeigt die letzten commits und Zeichenkette)
+
+Zurück zu Version: (die ersten 6 Zeichen reichen)
+git checkout 6f8af73 
+
+ls -a = zeigt git-Ordner
+(wenn ich den lösche, sind die commits weg: rm -r .git )
